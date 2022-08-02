@@ -13,11 +13,12 @@ namespace Lesson13
 
         static void Main(string[] args)
         {
-            Barbarian barbarian = new Barbarian();
+            Barbarian barbarian = new Barbarian(); 
             Vampire vampire = new Vampire();
             Hero hero = new Hero();
 
             BattleArena.SingleBattle(vampire, BattleArena.SingleBattle(barbarian, hero));
+            // ???
         }
     }
 }
